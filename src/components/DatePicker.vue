@@ -229,7 +229,7 @@ export default {
       }
     },
     checkIn(newDate) {
-      this.$emit("checkInChanged", newDate )
+      this.$emit("check-in-changed", newDate )
     },
     checkOut(newDate) {
 
@@ -242,7 +242,7 @@ export default {
         this.isOpen = false;
       }
 
-      this.$emit("checkOutChanged", newDate )
+      this.$emit("check-out-changed", newDate )
     },
 
   },
